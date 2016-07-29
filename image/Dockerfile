@@ -1,6 +1,6 @@
-FROM cassandra:2.2
-MAINTAINER Vy-Shane Xie <shane@node.mu>
-ENV REFRESHED_AT 2015-12-23
+FROM cassandra:3.7
+MAINTAINER gridcell <gridcellcoder@gridcell.io>
+ENV REFRESHED_AT 2016-07-29
 
 RUN apt-get -qq update && \
     DEBIAN_FRONTEND=noninteractive apt-get -yq install dnsutils && \
